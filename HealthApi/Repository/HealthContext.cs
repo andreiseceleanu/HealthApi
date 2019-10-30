@@ -13,9 +13,13 @@ namespace HealthApi.Context
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            
 
             base.OnModelCreating(builder);
+
         }
+
+        
 
 
         public DbSet<User> Users { get; set; }
